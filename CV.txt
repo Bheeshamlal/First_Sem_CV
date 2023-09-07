@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV</title>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .text-container {
+            width: 70%;
+            padding-right: 20px;
+        }
+
+        .image-container {
+            width: 30%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-container">
+            <div class="section">
+                <center><b>BHEESAHM LAL</b></center>
+            </div>
+            <div class="section">
+                <center><b>ADDRESS:</b> Mirpur mathelo, Ghanta Ghar chowk, Pakistan</center>
+            </div>
+            <div class="section">
+                <center><b>CELL NUMBER:</b> 030x337xx3x</center>
+            </div>
+            <div class="section">
+                <center><b>EMAIL:</b> Mirpur bhisham@gmail.com</center>
+            </div>
+            <div class="section">
+                <b>Objective:</b>
+                <p>Work in a place where excellence is preferred, and work is the first preference.</p>
+            </div>
+            <div class="section">
+                <b>Work Experience</b>
+                <ul>
+                    <li>Worked as a tutor in an academy.</li>
+                    <li>Worked as a CS teacher in a school.</li>
+                    <li>Worked as a programmer.</li>
+                    <li>Worked as a mathematics tutor.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <b>Qualification:</b>
+                <p>Did my intermediate from PSS Sukkur.</p>
+                <p>Continuing my graduation from IBA Sukkur University</p>
+            </div>
+            <div class="section">
+                <b>Technical Qualification:</b>
+                <ul>
+                    <li>C, C++</li>
+                    <li>Webpage developer</li>
+                    <li>Calculus experts</li>
+                </ul>
+            </div>
+            <div class="section">
+                <b>Languages</b>
+                <p>English, Sindhi, Siraiki, Urdu.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="ba1.jpg" alt="Your Image">
+        </div>
+    </div>
+</body>
+
+</html>
